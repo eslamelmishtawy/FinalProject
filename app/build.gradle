@@ -49,7 +49,7 @@ dependencies {
 
     }
     implementation project(path: ':androidJokeTeller')
-    implementation 'com.google.android.gms:play-services-ads:17.0.0'
+    freeImplementation 'com.google.android.gms:play-services-ads:17.0.0'
     implementation 'com.android.support:appcompat-v7:27.0.2'
     implementation 'com.google.code.findbugs:jsr305:2.0.1'
     implementation 'com.android.support:multidex:1.0.3'

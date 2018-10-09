@@ -30,7 +30,7 @@ public class MainActivityFragment extends Fragment implements OnFetched{
                              Bundle savedInstanceState) {
         final View root = inflater.inflate(R.layout.fragment_main, container, false);
         b1 = (Button) root.findViewById(R.id.b1);
-
+        MobileAds.initialize(getContext, "ca-app-pub-4592341350894996~9727765410");
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
